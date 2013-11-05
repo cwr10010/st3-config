@@ -1,0 +1,16 @@
+{
+	"installed_packages":
+	[
+		"Anaconda",
+		"BracketHighlighter",
+		"CursorRuler",
+		"DocBlockr",
+		"EditorConfig",
+		"Git",
+		"JSHint Gutter",
+		"Monokai Extended",
+		"SublimeCodeIntel",
+		"Theme - Soda",
+		"TrailingSpaces"
+	]
+}
