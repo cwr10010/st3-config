@@ -2,6 +2,10 @@
 !.gitignore
 !Packages
 Packages/*
+!Packages/Default
+Packages/Default/*
+!Packages/Default/*.sublime-keymap
+!Packages/Default/*.sublime-settings
 !Packages/User
 Packages/User/*
 !Packages/User/*.sublime-keymap
