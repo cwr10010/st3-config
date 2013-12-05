@@ -1,0 +1,7 @@
+{
+  "indent_size": 2,
+  "wrap_line_length": 78,
+  "brace_style": "collapse",
+  "jslint_happy": true,
+  "format_on_save": true,
+}
