@@ -10,3 +10,6 @@ Packages/Default/*
 Packages/User/*
 !Packages/User/*.sublime-keymap
 !Packages/User/*.sublime-settings
+!Packages/User/macros
+Packages/User/macros/*
+!Packages/User/macros/sublime-macro

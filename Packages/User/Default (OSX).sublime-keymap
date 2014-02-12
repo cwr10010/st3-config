@@ -1,11 +1,35 @@
-[
-	{
-		"keys": [
-			"super+shift+r"
-		],
-		"command": "reindent",
-		"args": {
-			"single_line": false
-		}
-	}
-]
+[{
+  "keys": [
+    "super+shift+r"
+  ],
+  "command": "reindent",
+  "args": {
+    "single_line": false
+  }
+}, {
+  "keys": ["enter"],
+  "command": "run_macro_file",
+  "args": {
+    "file": "res://Packages/User/macros/Add Line in Braces.sublime-macro"
+  },
+  "context": [{
+    "key": "setting.auto_indent",
+    "operator": "equal",
+    "operand": true
+  }, {
+    "key": "selection_empty",
+    "operator": "equal",
+    "operand": true,
+    "match_all": true
+  }, {
+    "key": "preceding_text",
+    "operator": "regex_contains",
+    "operand": "array\\($",
+    "match_all": true
+  }, {
+    "key": "following_text",
+    "operator": "regex_contains",
+    "operand": "^\\)",
+    "match_all": true
+  }]
+}]
