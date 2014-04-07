@@ -9,7 +9,7 @@ Settings sync repo for my ST3
 2. quit Sublime
 3. cd into your sublime application directory (the exact path depends on the OS you use, find it out for yourself)
 4. `git init`
-5. `git remote set-url origin http://github.com/karolyi/st3-config`
+5. `git remote add origin http://github.com/karolyi/st3-config`
 6. `git pull`
 7. Restart Sublime, and let Package Manager install the packages for your newly installed configuration
 8. ???
