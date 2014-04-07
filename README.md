@@ -11,6 +11,7 @@ Settings sync repo for my ST3
 4. `git init`
 5. `git remote add origin http://github.com/karolyi/st3-config`
 6. `git pull`
-7. Restart Sublime, and let Package Manager install the packages for your newly installed configuration
-8. ???
-9. Profit!
+7. `git checkout -f master`
+8. Restart Sublime, and let Package Manager install the packages for your newly installed configuration
+9. ???
+10. Profit!
