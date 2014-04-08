@@ -1,6 +1,6 @@
 {
     "wrap_line_length": 80,
-    "brace_style": "end-expand",
+    "brace_style": "collapse",
     "jslint_happy": true,
     "format_on_save": true,
     "preserve_newlines": true,
