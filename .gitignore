@@ -1,7 +1,9 @@
 *
 !.gitignore
 !Packages
-Packages/*
+Packages/*/*
+!Packages/*
+!Packages/*/*.sublime-settings
 !Packages/Default
 Packages/Default/*
 !Packages/Default/*.sublime-keymap

@@ -1,5 +1,5 @@
 {
-    "wrap_line_length": 80,
+    "wrap_line_length": 85,
     "brace_style": "collapse",
     "jslint_happy": true,
     "format_on_save": true,
