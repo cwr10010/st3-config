@@ -49,12 +49,12 @@
     /*
         Default python interpreter.
 
-        This can (an should) be overriden by project settings
+        This can (and should) be overridden by project settings
     */
     "python_interpreter": "python",
 
     /*
-        Set those aas true if you don't want Sublime Text regular completions
+        Set those as true if you don't want Sublime Text regular completions
     */
     "suppress_word_completions": false,
     "suppress_explicit_completions": false,
@@ -71,7 +71,7 @@
 
     /*
         If you set the following option as true, anaconda will display the
-        signatures of the methods you are using while typying
+        signatures of the methods you are using while typing
     */
     "display_signatures": false,
 
@@ -147,7 +147,7 @@
     /*
         TImeout for the autoformatting tool before fail
         Note: Take into account that depending on the size of the file you
-        want to autoformate, this can take a while
+        want to autoformat, this can take a while
     */
     "auto_formatting_timeout": 1,  // seconds
 
@@ -174,7 +174,7 @@
     ],
 
     /*
-        Set the thresshold limit for McCabe complexity checker
+        Set the threshold limit for McCabe complexity checker
     */
     "mccabe_threshold": 7,
 
@@ -186,7 +186,7 @@
     /*
         Sets the linting behaviour for anaconda:
 
-        "always" - Linting works always even while you are writting (in the background)
+        "always" - Linting works always even while you are writing (in the background)
         "load-save" - Linting works in file load and save only
         "save-only" - Linting works in file save only
     */
@@ -224,7 +224,7 @@
 
     /*
         If 'outline' (default) anaconda will outline error lines
-        If 'fill' anconda will fill the lines
+        If 'fill' anaconda will fill the lines
         If 'none' anaconda will not draw anything on error lines
     */
     "anaconda_linter_mark_style": "outline",
@@ -362,29 +362,96 @@
     ],
 
     /*
-        Ordinarily pyflakes will issue a warning when 'from foo import *' is used,
-        but it is ignored since the warning is not that helpful. If you want to see this warning,
-        set this option to false.
+        Ordinarily pyflakes will issue a warning when 'from foo import *'
+        is used, but it is ignored since the warning is not that helpful.
+        If you want to see this warning, set this option to false.
     */
     "pyflakes_ignore_import_*": true,
 
     /*
+        Set the following option to true if you want that anaconda check
+        the validity of your imports when the linting process is fired.
+
+        WARNING: take into account that anaconda compiles and import the
+        modules in the JsonServer memory segment in order to check this
+    */
+    "validate_imports": false,
+
+    /*
         Debug and development options
 
-        Use those options only for debugging and devleopment purposes, them can
+        Use those options only for debugging and development purposes, they can
         and will slowdown your Sublime Text
 
         anconda_debug can be set as: false or profiler
 
-        If this is set as profiler, Aanconda will run a profiler on autocompelte
-        and print it results in the Sublime Text console.
+        If this is set as profiler, Anaconda will run a profiler on autocomplete
+        and print its results in the Sublime Text console.
 
-        NOTE: cProfile can't be imported in all the platforms, at least no in
+        NOTE: cProfile can't be imported in all the platforms, at least not in
         Linux, this is an already reported bug:
 
             http://www.sublimetext.com/forum/viewtopic.php?f=3&t=13698
             https://github.com/SublimeText/Issues/issues/127
 
     */
-    "anaconda_debug": false
+    "anaconda_debug": false,
+
+    /*
+        Anaconda test runner related configuration.
+
+        The anaconda's test runner is originally a contribution by NorthIsUp
+            https://github.com/NorthIsUp
+
+        Run Twisted's trial based test suite under a virtualenv project:
+
+            // this is your <ProjectName>.sublime-project file
+            "settings": {
+                "python_interpreter": "~/.virtualenvs/project_name",
+                "test_command": "trial",
+                "test_virtualenv": "~/.virtualenvs/project_name",
+                "test_project_path": "project_src"
+            }
+
+        Run Django project tests using nose2 with a virtualenv:
+
+            // this is your <ProjectName>.sublime-project file
+            "settings": {
+                "python_interpreter": "~/.virtualenvs/django_project_name",
+                "test_command": "./manage.py test --settings=tests.settings --noinput"
+            }
+    */
+
+    /*
+        Uncomment the line below to execute any command before try to execute
+        your test suite. (if you need to run more than one command, just use a
+        list of commands ["cmd1", "cmd2", ...])
+
+    */
+    // "test_before_command": "",
+
+    /*
+        Command to execute tests with. nosetests by default
+    */
+    "test_command": "nosetests",
+
+    /*
+        Uncomment the line below to execute any command after execute
+        your test suite.
+    */
+    //"test_after_command": "",
+
+    /* This is the delimiter between the module and the class */
+    "test_delimeter": ":",
+
+    /* Uncomment the line below to use a virtualenv for your tests */
+    //"test_virtualenv": ""
+
+    /*
+        Uncomment the line below to add a top level path when you ask
+        anaconda to run all your project tests.
+
+        Note: this is need for example to can run tests with `twisted's trial`
+    */
+    // "test_project_path": "./"
 }
