@@ -3,6 +3,7 @@
 !Packages
 Packages/*/*
 !Packages/*
+!Packages/JSHint Gutter/.jshintrc
 !Packages/*/*.sublime-*
 Packages/*/Default*.sublime-*
 !Packages/Default
