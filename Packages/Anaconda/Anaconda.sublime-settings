@@ -3,6 +3,42 @@
 */
 {
     /*
+        Anaconda Tooltip Options
+
+        Sublime Text 3 supports tooltips since build 3070, if anaconda
+        runs in a ST3 instalation equal or newer than build 3070 it can
+        be configured to show tooltips for documentation and signatures
+
+        The options below sets how the tooltip is shown. Set the theme
+        as dark if you are using a dark theme or light if you are using
+        a light one.
+    */
+    "anaconda_tooltip_theme": "dark",  // possible options "light" or "dark"
+
+    /*
+        If you set the following option as true, anaconda will display the
+        signatures of the methods in a floating popup
+
+        *note*: this action takes effect if "display_signatures" is true
+    */
+    "enable_signatures_tooltip": true,
+
+    /*
+        If you set the following option as true, anaconda will display the
+        documentation of modules, classes or methods in a floating popup
+    */
+    "enable_docstrings_tooltip": true,
+
+    /*
+        If the option below is set as true, anaconda will merge the
+        outputs of display_signatures and show documentation
+
+        *note*: This has only effect if tooltips are enabled
+    */
+    "merge_signatures_and_doc": true,
+
+
+    /*
         Auto project switching
 
         If you set this to true, anaconda will detect project switches and
@@ -73,7 +109,7 @@
         If you set the following option as true, anaconda will display the
         signatures of the methods you are using while typing
     */
-    "display_signatures": false,
+    "display_signatures": true,
 
     /*
         The following set of options controls the pep8 autoformating behaviour
@@ -237,6 +273,14 @@
         ignored
     */
     "anaconda_linter_underlines": true,
+
+    /*
+        If anaconda_linter_show_errors_on_save is set to true, anaconda
+        will show a list of errors when the user save the file
+
+        This is disabled by default
+    */
+    "anaconda_linter_show_errors_on_save": false,
 
     /*
         Use PyLint instead of PyFlakes and PEP-8
@@ -421,6 +465,15 @@
                 "test_command": "./manage.py test --settings=tests.settings --noinput"
             }
     */
+
+    /*
+        Theme to use in the output panel.
+
+        Uncomment the line below to override the default tests runner
+        output, by default the theme is PythonConsoleDark.hidden-tmTheme
+        NOTE: The file specified here **MUST** exists in `Packages/Anaconda`
+    */
+    //"test_runner_theme": "PythonConsoleDark.hidden-tmTheme",
 
     /*
         Uncomment the line below to execute any command before try to execute

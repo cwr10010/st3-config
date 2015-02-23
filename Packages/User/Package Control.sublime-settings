@@ -1,9 +1,13 @@
 {
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
 		"Anaconda",
 		"BracketHighlighter",
 		"Case Conversion",
+		"CodeComplice",
 		"CursorRuler",
 		"Djaneiro",
 		"DocBlockr",
@@ -14,10 +18,10 @@
 		"JSHint Gutter",
 		"LESS",
 		"Monokai Extended",
+		"Package Control",
 		"PackageResourceViewer",
 		"Phpcs",
 		"Polymer & Web Component Snippets",
-		"SublimeCodeIntel",
 		"Theme - Soda",
 		"TrailingSpaces"
 	]

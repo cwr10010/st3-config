@@ -12,24 +12,24 @@
                 "children":
                 [
                     {
-                        "caption": "SublimeCodeIntel",
+                        "caption": "CodeComplice",
                         "children":
                         [
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/SublimeCodeIntel/SublimeCodeIntel.sublime-settings"},
+                                "args": {"file": "${packages}/CodeComplice/CodeComplice.sublime-settings"},
                                 "caption": "Settings – Default"
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/User/SublimeCodeIntel.sublime-settings"},
+                                "args": {"file": "${packages}/User/CodeComplice.sublime-settings"},
                                 "caption": "Settings – User"
                             },
                             { "caption": "-" },
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/SublimeCodeIntel/Default (OSX).sublime-keymap",
+                                    "file": "${packages}/CodeComplice/Default (OSX).sublime-keymap",
                                     "platform": "OSX"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -37,7 +37,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/SublimeCodeIntel/Default (Linux).sublime-keymap",
+                                    "file": "${packages}/CodeComplice/Default (Linux).sublime-keymap",
                                     "platform": "Linux"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -45,7 +45,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/SublimeCodeIntel/Default (Windows).sublime-keymap",
+                                    "file": "${packages}/CodeComplice/Default (Windows).sublime-keymap",
                                     "platform": "Windows"
                                 },
                                 "caption": "Key Bindings – Default"
@@ -78,7 +78,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/SublimeCodeIntel/Default (OSX).sublime-mousemap",
+                                    "file": "${packages}/CodeComplice/Default (OSX).sublime-mousemap",
                                     "platform": "OSX"
                                 },
                                 "caption": "Mouse Bindings – Default"
@@ -86,7 +86,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/SublimeCodeIntel/Default (Linux).sublime-mousemap",
+                                    "file": "${packages}/CodeComplice/Default (Linux).sublime-mousemap",
                                     "platform": "Linux"
                                 },
                                 "caption": "Mouse Bindings – Default"
@@ -94,7 +94,7 @@
                             {
                                 "command": "open_file",
                                 "args": {
-                                    "file": "${packages}/SublimeCodeIntel/Default (Windows).sublime-mousemap",
+                                    "file": "${packages}/CodeComplice/Default (Windows).sublime-mousemap",
                                     "platform": "Windows"
                                 },
                                 "caption": "Mouse Bindings – Default"

@@ -4,6 +4,6 @@
     "anaconda_linter_mark_style": "none",
     "auto_formatting": true,
     "pep8_ignore": [
- //    "E501",
+    "E501", // Is long lines
     ],
 }
