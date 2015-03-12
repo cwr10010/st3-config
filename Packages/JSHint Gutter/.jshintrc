@@ -14,5 +14,7 @@
   "quotmark": true,
   "undef": true,
   "unused": true,
-  "es3": true
+  "es3": true,
+  "strict": true,
+  "eqeqeq": true
 }

@@ -23,6 +23,8 @@
 		"PackageResourceViewer",
 		"Phpcs",
 		"Polymer & Web Component Snippets",
+		"Sass",
+		"SassBeautify",
 		"Theme - Soda",
 		"TrailingSpaces"
 	]
