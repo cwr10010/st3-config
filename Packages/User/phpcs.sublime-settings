@@ -1,9 +1,11 @@
 {
-  "show_debug": false,
-  "phpcs_sniffer_run": true,
-  "php_cs_fixer_on_save": true,
-  "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
-  "phpmd_run": true,
-  "phpcs_outline_for_errors": false,
-  "phpcs_show_errors_on_save": false,
+    "show_debug": false,
+    "phpcs_sniffer_run": true,
+    "php_cs_fixer_on_save": true,
+    "php_cs_fixer_executable_path": "/usr/local/bin/php-cs-fixer",
+    "phpcs_executable_path": "/usr/local/bin/phpcs",
+    "phpmd_executable_path": "/usr/local/bin/phpmd",
+    "phpmd_run": true,
+    "phpcs_outline_for_errors": true,
+    "phpcs_show_errors_on_save": false,
 }

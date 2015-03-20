@@ -13,8 +13,5 @@
   "globalstrict": true,
   "quotmark": true,
   "undef": true,
-  "unused": true,
-  "es3": true,
-  "strict": true,
-  "eqeqeq": true
+  "unused": true
 }
