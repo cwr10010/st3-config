@@ -2,11 +2,9 @@
     "anaconda_gutter_marks": true,
     "anaconda_gutter_theme": "hard",
     "anaconda_linter_mark_style": "none",
+    "anaconda_linter_underlines": true,
     "auto_formatting": true,
-    "pep8_max_line_length": 78,
-    "pep8_ignore": [
-        // "E501", // Is long lines
-    ],
+    // "pep8_max_line_length": 79,
     "suppress_word_completions": true,
     "suppress_explicit_completions": true
 }
