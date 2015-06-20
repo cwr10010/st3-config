@@ -42,6 +42,6 @@
 	"line_padding_top": 3,
 	"line_padding_bottom": 3,
 	// On retina Mac
-	"font_options": ["gray_antialias"],
+	// "font_options": ["gray_antialias"],
 	"bold_folder_labels": true
 }
