@@ -16,3 +16,7 @@ Settings sync repo for my ST3
 9. Restart Sublime, and let Package Manager install the packages for your newly installed configuration
 10. ???
 11. Profit!
+
+This sublime setting uses the 'Roboto Mono Light' font. You might want
+to change it or download the font for yourselves from here:
+http://www.1001freefonts.com/roboto_mono.font
