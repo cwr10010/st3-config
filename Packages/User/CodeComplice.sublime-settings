@@ -1,7 +1,6 @@
 {
     "codeintel_enabled_languages": [
-       "JavaScript", "SCSS", "HTML", "Go", "Ruby", "XML", "Sass",
-       "HTML5", "Perl", "CSS", "Twig", "Less", "Node.js",
-       "TemplateToolkit", "PHP"
+       "SCSS", "HTML", "Go", "Ruby", "XML", "Sass", "HTML5", "Perl",
+       "CSS", "Twig", "Less", "Node.js", "TemplateToolkit", "PHP"
     ],
 }
