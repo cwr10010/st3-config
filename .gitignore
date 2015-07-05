@@ -3,15 +3,27 @@
 !Packages
 Packages/*/*
 !Packages/*
+
+!Packages/Djaneiro
+!Packages/Djaneiro/*
+!Packages/Djaneiro/*/*
+
+!Packages/JavaScript
+!Packages/JavaScript/*
+
 !Packages/JSHint Gutter/.jshintrc
+
 !Packages/*/*.sublime-*
 Packages/*/Default*.sublime-*
+
 !Packages/Default
 Packages/Default/*
 !Packages/Default/*.sublime-*
+
 !Packages/User
 Packages/User/*
 !Packages/User/*.sublime-*
 !Packages/User/macros
 Packages/User/macros/*
 !Packages/User/macros/sublime-macro
+
