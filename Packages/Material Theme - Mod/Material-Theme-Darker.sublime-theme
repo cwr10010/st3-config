@@ -23,5 +23,14 @@
         "font.bold": false,
         "color": [255, 255, 255]
     },
+    {
+        "class": "tab_label",
+        "parents": [{
+            "class": "tab_control",
+            "attributes": ["selected"]
+        }],
+        "fg": [255, 255, 255, 255],
+        "shadow_color": [255, 255, 255, 255],
+        "shadow_offset": [0, 0]
+    },
 ]
-
