@@ -29,6 +29,7 @@
 	"line_padding_top": 2,
 	"material_theme_small_statusbar": true,
 	"material_theme_small_tab": true,
+	"material_theme_tabs_autowidth": true,
 	"open_files_in_new_window": false,
 	"overlay_scroll_bars": "enabled",
 	"rulers":
