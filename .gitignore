@@ -8,6 +8,9 @@ Packages/*/*
 !Packages/Djaneiro/*
 !Packages/Djaneiro/*/*
 
+#!Packages/LiveReload
+!Packages/LiveReload/*
+
 !Packages/JavaScript
 !Packages/JavaScript/*
 
