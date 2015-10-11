@@ -17,17 +17,17 @@
             <key>settings</key>
             <dict>
                 <key>background</key>
-                <string>#1e1e1e</string>
+                <string>#212121</string>
                 <key>caret</key>
-                <string>#c0c5ce</string>
+                <string>#FFCC00</string>
                 <key>foreground</key>
                 <string>#c0c5ce70</string>
                 <key>invisibles</key>
                 <string>#65737e</string>
                 <key>lineHighlight</key>
-                <string>#00000070</string>
+                <string>#00000030</string>
                 <key>selection</key>
-                <string>#ffffff20</string>
+                <string>#61616140</string>
                 <key>guide</key>
                 <string>#42424260</string>
                 <key>activeGuide</key>
@@ -38,6 +38,8 @@
                 <string>#424242</string>
                 <key>findHighlight</key>
                 <string>#F8E71C</string>
+                <key>tagsOptions</key>
+                <string>underline</string>
                 <key>shadow</key>
                 <string>#00000010</string>
             </dict>
@@ -134,19 +136,18 @@
             <key>name</key>
             <string>Functions</string>
             <key>scope</key>
-            <string>entity.name.function, meta.require, support.function.any-method,
-meta.function-call, support.function, keyword.other.special-method, meta.block-level</string>
+            <string>entity.name.function, meta.require, support.function.any-method, meta.function-call, support.function, keyword.other.special-method, meta.block-level, meta.function-call.method.with-arguments variable.function</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#82B1FF</string>
+                <string>#89DDFF</string>
             </dict>
         </dict>
         <dict>
             <key>name</key>
             <string>Classes</string>
             <key>scope</key>
-            <string>support.class, entity.name.class, entity.name.type.class</string>
+            <string>support.class, entity.name.class, entity.name.type.class, variable.language.this.js</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -172,7 +173,7 @@ meta.function-call, support.function, keyword.other.special-method, meta.block-l
             <key>settings</key>
             <dict>
                 <key>foreground</key>
-                <string>#82B1FF</string>
+                <string>#89DDFF</string>
             </dict>
         </dict>
         <dict>
@@ -229,6 +230,17 @@ keyword.operator, constant.other.color, meta.tag, punctuation.definition.tag, pu
             <dict>
                 <key>foreground</key>
                 <string>#F77669</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Arguments</string>
+            <key>scope</key>
+            <string>meta.function-call meta.function-call.arguments</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C3E88D</string>
             </dict>
         </dict>
         <dict>
@@ -766,10 +778,7 @@ meta.property-value support.constant.named-color.css</string>
             <key>name</key>
             <string>Styles Units</string>
             <key>scope</key>
-            <string>source.css keyword.other.unit,
-source.less keyword.other.unit,
-source.scss keyword.other.unit,
-source.sass keyword.other.unit</string>
+            <string>source.css keyword.other.unit, source.less keyword.other.unit, source.scss keyword.other.unit, source.sass keyword.other.unit</string>
             <key>settings</key>
             <dict>
                 <key>foreground</key>
@@ -785,6 +794,28 @@ source.sass keyword.other.unit</string>
             <dict>
                 <key>foreground</key>
                 <string>#7986CB</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>LESS: misc variables</string>
+            <key>scope</key>
+            <string>source.less parameter.less variable.parameter.misc.css</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7986CB</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>LESS: property string</string>
+            <key>scope</key>
+            <string>source.less meta.property-value.css string.quoted.double.css comment markup.raw</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#C3E88D</string>
             </dict>
         </dict>
         <dict>
@@ -818,6 +849,39 @@ source.sass keyword.other.unit</string>
             <dict>
                 <key>foreground</key>
                 <string>#F77669</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Gulpfile: Functions variables</string>
+            <key>scope</key>
+            <string>source.gulpfile.js meta.group.braces.round meta.group.braces.curly meta.group.braces.round meta.function-call.with-arguments.js variable.function.js, source.gulpfile.js meta.group.braces.round meta.group.braces.curly variable.function.js</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7986CB</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Support functions</string>
+            <key>scope</key>
+            <string>meta.function-call support.type</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#FFEB95</string>
+            </dict>
+        </dict>
+        <dict>
+            <key>name</key>
+            <string>Python: Argument variable</string>
+            <key>scope</key>
+            <string>source.python meta.function-call.arguments.python</string>
+            <key>settings</key>
+            <dict>
+                <key>foreground</key>
+                <string>#7986CB</string>
             </dict>
         </dict>
     </array>
