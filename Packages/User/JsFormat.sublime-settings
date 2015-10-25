@@ -5,5 +5,6 @@
     "format_on_save": true,
     "preserve_newlines": true,
     "max_preserve_newlines": 2,
-    "keep_array_indentation": true
+    "keep_array_indentation": true,
+    "format_on_save_extensions": ["js", "json"]
 }
