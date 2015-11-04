@@ -3,13 +3,15 @@ st3-config
 
 Settings sync repo for my ST3
 
+Thankfully forked from http://github.com/karolyi/st3-config
+
 # Setting up sublime3 to use it
 
 1. Install Package Manager for sublime, here's how: https://sublime.wbond.net/installation
 2. quit Sublime
 3. cd into your sublime application directory (the exact path depends on the OS you use, find it out for yourself)
 4. `git init`
-5. `git remote add origin http://github.com/karolyi/st3-config`
+5. `git remote add origin https://github.com/cwr10010/st3-config.git
 6. `git pull origin master`
 7. `git pull`
 8. `git checkout -f master`
