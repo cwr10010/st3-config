@@ -32,6 +32,7 @@
 		"SassBeautify",
 		"tern_for_sublime",
 		"Theme - Soda",
-		"TrailingSpaces"
+		"TrailingSpaces",
+		"Virtualenv"
 	]
 }
