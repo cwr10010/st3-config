@@ -6,7 +6,6 @@
 	"installed_packages":
 	[
 		"Anaconda",
-		"Better CoffeeScript",
 		"BracketHighlighter",
 		"Case Conversion",
 		"CodeComplice",
@@ -17,28 +16,22 @@
 		"Git",
 		"GitGutter",
 		"Gitignore",
-		"Gradle_Language",
 		"HexViewer",
 		"isort",
 		"Jekyll",
 		"JsFormat",
 		"JSHint Gutter",
-		"Kotlin",
 		"LaTeXTools",
 		"LiveReload",
 		"MarkdownEditing",
 		"Material Theme",
-		"Monokai Extended",
 		"Package Control",
 		"PackageResourceViewer",
 		"PlainNotes",
 		"PlainTasks",
 		"Polymer & Web Component Snippets",
 		"PyBuilder",
-		"Theme - Soda",
 		"TrailingSpaces",
-		"TypeScript",
-		"TypescriptCompletion",
 		"Virtualenv"
 	]
 }
