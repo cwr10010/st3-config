@@ -6,13 +6,17 @@
 	"installed_packages":
 	[
 		"Anaconda",
+		"Asciidoctor",
 		"BracketHighlighter",
 		"Case Conversion",
 		"CodeComplice",
 		"CursorRuler",
 		"DocBlockr",
+		"Docker Based Build Systems",
+		"Dockerfile Syntax Highlighting",
 		"EditorConfig",
 		"Fix Mac Path",
+		"Formatter",
 		"Git",
 		"GitGutter",
 		"Gitignore",
@@ -21,17 +25,17 @@
 		"Jekyll",
 		"JsFormat",
 		"JSHint Gutter",
+		"JSON Reindent",
 		"LaTeXTools",
 		"LiveReload",
 		"MarkdownEditing",
 		"Material Theme",
 		"Package Control",
 		"PackageResourceViewer",
-		"PlainNotes",
-		"PlainTasks",
 		"Polymer & Web Component Snippets",
 		"PyBuilder",
 		"TrailingSpaces",
+		"TypeScript",
 		"Virtualenv"
 	]
 }

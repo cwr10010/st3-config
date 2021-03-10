@@ -99,7 +99,7 @@
 
 	// The color of the text in the preview math phantoms.
 	// Ensure you have the latex xcolor package available to change the color.
-	// The format can either be RGB based "#RRGGBB" (e.g. "#FFFF00") 
+	// The format can either be RGB based "#RRGGBB" (e.g. "#FFFF00")
 	// or a color name (e.g. "yellow")
 	// If it is the empty string "" it will be guessed based in the color scheme.
 	"preview_math_color": "",
@@ -474,7 +474,7 @@
 	//					Windows
 	//
 	// "zathura"		uses Zathura to open the pdf
-	"viewer": "",
+	"viewer": "skim",
 
 	// OPTION: "viewer_settings"
 	// Specify viewer-dependent settings and preferences
